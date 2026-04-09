@@ -3,18 +3,19 @@
 Google Sheets add-on for importing and exporting table data as CSV, HTML, Markdown, and JSON
 
 ## Features
+- **Import table data** - paste CSV, JSON Array, Markdown Table, or HTML Table and write to Sheets.
+- **Export selected range** - convert the current selection to CSV, JSON, Markdown, or HTML.
+- **Flexible import destination** - insert at current selection or create a new sheet automatically.
+- **Copy or download export output** - one-click copy to clipboard or export as a file.
 
-- **Export** — write the current selection or sheet to CSV, HTML, Markdown, or JSON
-- **Import** — paste or load structured text and apply it as values in the spreadsheet
-- **Works in-place** — uses the spreadsheet you already have open
 
 ## Links
 
-- **Home**: https://ysskrishna.github.io/google-sheets-table-converter/
-- **Changelog**: https://ysskrishna.github.io/google-sheets-table-converter/changelog.html
-- **Terms of Service**: https://ysskrishna.github.io/google-sheets-table-converter/terms.html
-- **Privacy Policy**: https://ysskrishna.github.io/google-sheets-table-converter/privacy.html
-- **Support**: https://ysskrishna.github.io/google-sheets-table-converter/support.html
+- **Home**: [https://ysskrishna.github.io/google-sheets-table-converter/](https://ysskrishna.github.io/google-sheets-table-converter/)
+- **Changelog**: [https://ysskrishna.github.io/google-sheets-table-converter/changelog.html](https://ysskrishna.github.io/google-sheets-table-converter/changelog.html)
+- **Terms of Service**: [https://ysskrishna.github.io/google-sheets-table-converter/terms.html](https://ysskrishna.github.io/google-sheets-table-converter/terms.html)
+- **Privacy Policy**: [https://ysskrishna.github.io/google-sheets-table-converter/privacy.html](https://ysskrishna.github.io/google-sheets-table-converter/privacy.html)
+- **Support**: [https://ysskrishna.github.io/google-sheets-table-converter/support.html](https://ysskrishna.github.io/google-sheets-table-converter/support.html)
 
 ## Screenshots
 

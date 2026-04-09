@@ -9,6 +9,9 @@ The same content is shown on the [Changelog page](https://ysskrishna.github.io/g
 ### Added
 
 - Initial release of the add-on.
-- **Import and export** — convert table data between the active sheet and CSV, HTML, Markdown, and JSON formats.
+- **Import table data** - paste CSV, JSON Array, Markdown Table, or HTML Table and write to Sheets.
+- **Export selected range** - convert the current selection to CSV, JSON, Markdown, or HTML.
+- **Flexible import destination** - insert at current selection or create a new sheet automatically.
+- **Copy or download export output** - one-click copy to clipboard or export as a file.
 
 [1.0.0]: https://github.com/ysskrishna/google-sheets-table-converter
