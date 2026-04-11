@@ -1,0 +1,128 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { siteBasePath } from '../paths';
+
+const site = 'https://ysskrishna.github.io/google-sheets-table-converter';
+const ogImage = `${site}/assets/store_screenshots/main.png`;
+
+const ldJson = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': `${site}/#website`,
+      name: 'Table Converter',
+      url: `${site}/`,
+      description:
+        'Google Sheets add-on to import and export table data as CSV, HTML, Markdown, and JSON from the active spreadsheet.',
+      publisher: { '@id': `${site}/#author` },
+      inLanguage: 'en',
+    },
+    {
+      '@type': 'SoftwareApplication',
+      name: 'Table Converter',
+      applicationCategory: 'BusinessApplication',
+      operatingSystem: 'Web',
+      url: `${site}/`,
+      description:
+        'Google Sheets add-on to import and export table data as CSV, HTML, Markdown, and JSON.',
+      offers: {
+        '@type': 'Offer',
+        price: '0',
+        priceCurrency: 'USD',
+      },
+      author: { '@id': `${site}/#author` },
+    },
+    {
+      '@type': 'Person',
+      '@id': `${site}/#author`,
+      name: 'Y. Siva Sai Krishna',
+      url: 'https://github.com/ysskrishna',
+    },
+  ],
+};
+---
+
+<BaseLayout
+  title="Table Converter"
+  description="Google Sheets add-on to import and export table data as CSV, HTML, Markdown, and JSON from the active spreadsheet."
+  canonical={`${site}/`}
+  navKey="home"
+  mainClass="site-main--home"
+  ogTitle="Table Converter"
+  ogDescription="Google Sheets add-on to import and export table data as CSV, HTML, Markdown, and JSON."
+  ogUrl={`${site}/`}
+  ogImage={ogImage}
+  twitterCard="summary_large_image"
+  twitterImage={ogImage}
+  ldJson={ldJson}
+>
+  <div class="hero">
+    <h1>Table Converter</h1>
+    <p class="lede">
+      Google Sheets add-on for importing and exporting table data as CSV, HTML, Markdown, and JSON
+    </p>
+  </div>
+
+  <h2>Features</h2>
+  <ul>
+    <li><strong>Export</strong> — write the current selection or sheet to CSV, HTML, Markdown, or JSON</li>
+    <li><strong>Import</strong> — paste or load structured text and apply it as values in the spreadsheet</li>
+    <li><strong>Works in-place</strong> — uses the spreadsheet you already have open</li>
+  </ul>
+
+  <section class="screenshots" aria-label="Screenshots">
+    <h2>Screenshots</h2>
+    <div class="screenshots-scroll" tabindex="0" aria-label="Scroll to see all screenshots">
+      <figure>
+        <img
+          src={`${siteBasePath}assets/store_screenshots/main.png`}
+          alt="Table Converter main view"
+          width="1920"
+          height="1080"
+          loading="lazy"
+        />
+        <figcaption>Main</figcaption>
+      </figure>
+      <figure>
+        <img
+          src={`${siteBasePath}assets/store_screenshots/1.png`}
+          alt="Table Converter screenshot 1"
+          width="1080"
+          height="1920"
+          loading="lazy"
+        />
+        <figcaption>1</figcaption>
+      </figure>
+      <figure>
+        <img
+          src={`${siteBasePath}assets/store_screenshots/2.png`}
+          alt="Table Converter screenshot 2"
+          width="1080"
+          height="1920"
+          loading="lazy"
+        />
+        <figcaption>2</figcaption>
+      </figure>
+      <figure>
+        <img
+          src={`${siteBasePath}assets/store_screenshots/3.png`}
+          alt="Table Converter screenshot 3"
+          width="1080"
+          height="1920"
+          loading="lazy"
+        />
+        <figcaption>3</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="author" aria-label="About the author">
+    <h2>About the author</h2>
+    <p>Table Converter is built and maintained by <strong>Y. Siva Sai Krishna</strong>.</p>
+    <p>
+      <a href="https://github.com/ysskrishna">Author's GitHub</a> •
+      <a href="https://www.linkedin.com/in/ysskrishna">Author's LinkedIn</a>
+    </p>
+  </section>
+</BaseLayout>
