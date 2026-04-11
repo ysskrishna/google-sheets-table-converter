@@ -19,13 +19,13 @@ Google Sheets add-on for importing and exporting table data as CSV, HTML, Markdo
 
 ## Screenshots
 
-<img src="docs/assets/store_screenshots/main.png" alt="Table Converter main view" width="640" />
+<img src="website/public/assets/store_screenshots/main.png" alt="Table Converter main view" width="640" />
 
-<img src="docs/assets/store_screenshots/1.png" alt="Table Converter screenshot 1" width="280" />
+<img src="website/public/assets/store_screenshots/1.png" alt="Table Converter screenshot 1" width="280" />
 
-<img src="docs/assets/store_screenshots/2.png" alt="Table Converter screenshot 2" width="280" />
+<img src="website/public/assets/store_screenshots/2.png" alt="Table Converter screenshot 2" width="280" />
 
-<img src="docs/assets/store_screenshots/3.png" alt="Table Converter screenshot 3" width="280" />
+<img src="website/public/assets/store_screenshots/3.png" alt="Table Converter screenshot 3" width="280" />
 
 ## Author
 
