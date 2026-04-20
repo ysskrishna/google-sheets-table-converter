@@ -1,6 +1,6 @@
 # Table Converter
 
-[![Website](https://img.shields.io/badge/Website-222?style=flat-square&logo=githubpages)](https://ysskrishna.github.io/google-sheets-table-converter/)
+[![Add to Google Sheets](https://img.shields.io/badge/-Add%20to%20Google%20Sheets-0F9D58?style=flat-square&logo=googlesheets&logoColor=white)](https://workspace.google.com/marketplace/app/table_converter/489677791287) [![Homepage](https://img.shields.io/badge/Homepage-222?style=flat-square&logo=githubpages)](https://ysskrishna.github.io/google-sheets-table-converter/)
 
 Google Sheets add-on for importing and exporting table data as CSV, HTML, Markdown, and JSON
 
@@ -33,4 +33,4 @@ Google Sheets add-on for importing and exporting table data as CSV, HTML, Markdo
 
 Built and maintained by **Y. Siva Sai Krishna**.
 
-[Author's GitHub](https://github.com/ysskrishna) • [Author's LinkedIn](https://www.linkedin.com/in/ysskrishna) • [Website](https://ysskrishna.github.io/google-sheets-table-converter/)
+[Author's GitHub](https://github.com/ysskrishna) • [Author's LinkedIn](https://www.linkedin.com/in/ysskrishna) • [Add to Google Sheets](https://workspace.google.com/marketplace/app/table_converter/489677791287) • [Homepage](https://ysskrishna.github.io/google-sheets-table-converter/)
