@@ -1,6 +1,6 @@
 # Table Converter
 
-[![Add to Google Sheets](https://img.shields.io/badge/-Add%20to%20Google%20Sheets-0F9D58?style=flat-square&logo=googlesheets&logoColor=white)](https://workspace.google.com/marketplace/app/table_converter/489677791287) [![Documentation](https://img.shields.io/badge/Documentation-0969DA?style=flat-square&logo=githubpages&logoColor=white)](https://ysskrishna.github.io/google-sheets-table-converter/) [![Product page](https://img.shields.io/badge/Product%20page-0D9488?style=flat-square)](https://www.ysskrishna.space/products/58-google-sheets-table-converter) [![More Google Workspace add-ons](https://img.shields.io/badge/More%20Google%20Workspace%20add--ons-4285F4?style=flat-square&logo=google&logoColor=white)](https://www.ysskrishna.space/products?category=google-workspace-add-ons) [![Table Converter blog](https://img.shields.io/badge/Table%20Converter%20blog-DB2777?style=flat-square)](https://www.ysskrishna.space/blog/tag/google-sheets-table-converter)
+[![Add to Google Sheets](https://img.shields.io/badge/-Add%20to%20Google%20Sheets-0F9D58?style=flat-square&logo=googlesheets&logoColor=white)](https://workspace.google.com/marketplace/app/table_converter/489677791287) [![Documentation](https://img.shields.io/badge/Documentation-0969DA?style=flat-square&logo=githubpages&logoColor=white)](https://ysskrishna.github.io/google-sheets-table-converter/) [![Product page](https://img.shields.io/badge/Product%20page-0D9488?style=flat-square)](https://www.ysskrishna.space/products/58-google-sheets-table-converter) [![More Google Workspace add-ons](https://img.shields.io/badge/More%20Google%20Workspace%20add--ons-4285F4?style=flat-square&logo=google&logoColor=white)](https://www.ysskrishna.space/products?category=google-workspace-add-ons) [![Table Converter blog](https://img.shields.io/badge/Table%20Converter%20blog-DB2777?style=flat-square)](https://www.ysskrishna.space/blog/tag/google-sheets-table-converter) [![Author site](https://img.shields.io/badge/author-ysskrishna.space-informational)](https://ysskrishna.space)
 
 Google Sheets add-on for importing and exporting table data as CSV, HTML, Markdown, and JSON
 
@@ -29,8 +29,41 @@ Google Sheets add-on for importing and exporting table data as CSV, HTML, Markdo
 
 <img src="website/public/assets/store_screenshots/3.png" alt="Table Converter screenshot 3" width="280" />
 
-## Author
+## Built and maintained by
 
-Built and maintained by **Y. Siva Sai Krishna**.
+Table Converter is built and maintained by:
 
-[Author's GitHub](https://github.com/ysskrishna) • [Author's LinkedIn](https://www.linkedin.com/in/ysskrishna) • [Add to Google Sheets](https://workspace.google.com/marketplace/app/table_converter/489677791287) • [Documentation](https://ysskrishna.github.io/google-sheets-table-converter/) • [Product page](https://www.ysskrishna.space/products/58-google-sheets-table-converter) • [More Google Workspace add-ons](https://www.ysskrishna.space/products?category=google-workspace-add-ons) • [Table Converter blog](https://www.ysskrishna.space/blog/tag/google-sheets-table-converter)
+| | Name | GitHub | Role |
+|---|------|--------|------|
+| <img src="https://github.com/ysskrishna.png?size=120" width="60" height="60" alt="Y. Siva Sai Krishna"> | **Y. Siva Sai Krishna** | [@ysskrishna](https://github.com/ysskrishna) | Creator |
+
+## Changelog
+
+See [CHANGELOG](CHANGELOG.md) for release history.
+
+## Support
+
+If you find this project helpful:
+
+- ⭐ Star the repository
+- 🐛 [Report issues](https://github.com/ysskrishna/google-sheets-table-converter/issues)
+- 🔀 Submit pull requests
+- 💝 [Sponsor on GitHub](https://github.com/sponsors/ysskrishna)
+
+## License
+
+TODO(siva): this repository has no LICENSE file yet, so the code is "all rights reserved" by default. Pick a license (the optional `0005-license.patch` adds MIT) and replace this line, e.g. with: MIT © [Y. Siva Sai Krishna](https://github.com/ysskrishna) — see [LICENSE](LICENSE) for details.
+
+---
+
+<p align="left">
+  <a href="https://github.com/ysskrishna">Author's GitHub</a> •
+  <a href="https://linkedin.com/in/ysskrishna">Author's LinkedIn</a> •
+  <a href="https://ysskrishna.space">Author's site</a> •
+  <a href="https://workspace.google.com/marketplace/app/table_converter/489677791287">Add to Google Sheets</a> •
+  <a href="https://ysskrishna.github.io/google-sheets-table-converter/">Documentation</a> •
+  <a href="https://www.ysskrishna.space/products/58-google-sheets-table-converter">Product page</a> •
+  <a href="https://www.ysskrishna.space/products?category=google-workspace-add-ons">More Google Workspace add-ons</a> •
+  <a href="https://www.ysskrishna.space/blog/tag/google-sheets-table-converter">Table Converter blog</a> •
+  <a href="https://github.com/ysskrishna/google-sheets-table-converter/issues">Report Issues</a>
+</p>
