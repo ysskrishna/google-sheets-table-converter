@@ -116,4 +116,29 @@ const ldJson = {
       </figure>
     </div>
   </section>
+
+  <section class="markdown-table" aria-labelledby="markdown-table-heading">
+    <h2 id="markdown-table-heading">Google Sheets to Markdown table</h2>
+    <p>
+      Paste a sheet range into a README without hand-formatting pipes: the add-on turns the selected cells into a Markdown table you can copy in one click.
+    </p>
+    <ol>
+      <li>Select the cells you want to share in the spreadsheet.</li>
+      <li>Open <strong>Extensions</strong> &gt; <strong>Table Converter</strong> and choose <strong>Export selected range</strong>.</li>
+      <li>Pick <strong>Markdown</strong> as the format, then copy the output to your clipboard or download it as a file.</li>
+    </ol>
+    <p>For a 3 by 3 range with a header row, such as:</p>
+    <table>
+      <thead><tr><th>Fruit</th><th>Color</th><th>Count</th></tr></thead>
+      <tbody>
+        <tr><td>Apple</td><td>Red</td><td>3</td></tr>
+        <tr><td>Pear</td><td>Green</td><td>5</td></tr>
+      </tbody>
+    </table>
+    <p>the add-on outputs this Markdown:</p>
+    <pre><code class="language-markdown">| Fruit | Color | Count |
+| --- | --- | --- |
+| Apple | Red | 3 |
+| Pear | Green | 5 |</code></pre>
+  </section>
 </BaseLayout>
