@@ -71,6 +71,26 @@ const ldJson = {
     <li><strong>Works in-place</strong> — uses the spreadsheet you already have open</li>
   </ul>
 
+  <section class="markdown-export" aria-labelledby="markdown-export-heading">
+    <h2 id="markdown-export-heading">Google Sheets to Markdown table</h2>
+    <p>Paste a sheet into a README as a Markdown table without hand-formatting the pipes.</p>
+    <ol>
+      <li>Select the cell range you want to export in Google Sheets.</li>
+      <li>Open the <strong>Table Converter</strong> menu in the menu bar and click <strong>start</strong>.</li>
+      <li>In the sidebar, open the <strong>Export</strong> tab and set <strong>Export format</strong> to <strong>Markdown Table</strong>.</li>
+      <li>Click <strong>Show current selection</strong> to confirm the range, then <strong>Copy</strong> the output or <strong>Export</strong> it as a <code>.md</code> file.</li>
+    </ol>
+    <p>For a 3 by 3 range with a header row:</p>
+    <pre><code>Name   Qty  Price
+Apple  3    1.20
+Pear   12   0.5</code></pre>
+    <p>The add-on outputs:</p>
+    <pre><code>| Name  | Qty | Price |
+| ----- | --- | ----- |
+| Apple | 3   | 1.20  |
+| Pear  | 12  | 0.5   |</code></pre>
+  </section>
+
   <section class="screenshots" aria-label="Screenshots">
     <h2>Screenshots</h2>
     <div class="screenshots-scroll" tabindex="0" aria-label="Scroll to see all screenshots">
